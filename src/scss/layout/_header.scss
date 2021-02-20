@@ -1,0 +1,18 @@
+.header {
+    background-color: $verde;
+    .contenido-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $separacion / 2 0;
+    }
+    h1 {
+        color: $blanco;
+    }
+}
+
+.navegacion-principal {
+    a {
+        color: $blanco;
+    }
+}
