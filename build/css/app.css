@@ -356,5 +356,11 @@ h3 {
   .header h1 {
     color: #fff; }
 
-.navegacion-principal a {
-  color: #fff; }
+.navegacion-principal {
+  display: flex;
+  gap: 2rem; }
+  .navegacion-principal a {
+    color: #fff;
+    font-size: 2rem; }
+    .navegacion-principal a:hover {
+      color: #fef46d; }

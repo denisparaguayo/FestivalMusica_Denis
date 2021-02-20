@@ -12,7 +12,13 @@
 }
 
 .navegacion-principal {
+    display: flex;
+    gap: 2rem;
     a {
         color: $blanco;
+        font-size: 2rem;
+        &:hover {
+            color: $amarillo;
+        }
     }
 }
