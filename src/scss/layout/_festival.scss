@@ -1,0 +1,9 @@
+.sobre-festival{
+    padding: $separacion 0;
+    
+    @include tablet{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: $separacion;
+    }
+}

@@ -410,3 +410,11 @@ h3 {
       background-color: #f53756;
       padding: 1rem 2rem;
       font-size: 2rem; }
+
+.sobre-festival {
+  padding: 5rem 0; }
+  @media (min-width: 768px) {
+    .sobre-festival {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 5rem; } }
