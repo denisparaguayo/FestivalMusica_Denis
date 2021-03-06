@@ -5,20 +5,24 @@
     h3, p{
         text-align: center;
         color: $blanco;
+        
     }
+    
     .dia{
         text-transform: uppercase;
         margin: $separacion 0;
     }
 }
+
 .escenarios-contenedor{
     @include tablet{
         @include grid(2, $separacion)
     }
 
     .escenario{
-        margin-top: $separacion / 2;
+        margin-top: $separacion /2;
     }
+    
     .nombre-escenario{
         font-size: 2rem;
         color: $negro;
